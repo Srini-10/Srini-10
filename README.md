@@ -35,4 +35,4 @@ src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb29914
 
 <img src="https://github-profile-trophy.vercel.app/?username=Srini-10" alt="srinivasan" height="150" width="600"/>
  
-<img src="https://gpvc.arturio.dev/Srini-10" alt="srinivasan"/>
+<img src="https://github.com/Srini-10" alt="srinivasan"/>
