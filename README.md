@@ -34,5 +34,4 @@ src="https://camo.githubusercontent.com/cae12fddd9d6982901d82580bdf321d81fb29914
 <p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=Srini-10&show_icons=true&locale=en" alt="srinivasan" /></p>
 
 <img src="https://github-profile-trophy.vercel.app/?username=Srini-10" alt="srinivasan" height="150" width="600"/>
- 
-<img src="https://avatars.githubusercontent.com/u/136215579?v=4" alt="srinivasan"/>
+
