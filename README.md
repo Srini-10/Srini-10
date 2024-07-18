@@ -18,7 +18,7 @@ src="./public/Gif2.png" width="350px" alt="Clown" />
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.linkedin.com/in/srinivasan-p-32583127a/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Srinivasan" height="30" width="40" /></a><a href="https://x.com/SrinivasanP1018" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Srinivasan" height="30" width="40" /></a>
+<a href="https://www.linkedin.com/in/srinivasan-p-32583127a/" target="blank"><img align="center" src="https://www.pinterest.com/ideas/twitter-icon/944402770717/" alt="Srinivasan" height="30" width="40" /></a><a href="https://x.com/SrinivasanP1018" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="Srinivasan" height="30" width="40" /></a>
 </p>
 <p>Email : srinivasanp1018@gmail.com</a>
 
