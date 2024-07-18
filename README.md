@@ -1,6 +1,6 @@
 <p>Hi There👋</p>
 <h1>I'm Srinivasan</h1>
-<img w="30%" radius="20px"
+<img w="300px" radius="20px"
 <<<<<<< HEAD
 class="left-0 rounded-md"
 src="./public/Gif.jpeg">
