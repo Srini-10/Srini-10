@@ -2,10 +2,10 @@
 <h1>I'm Srinivasan</h1>
 <img w="300px" radius="20px" align="left"
 <<<<<<< HEAD
-class="left-0 rounded-md max-w-[300px]"
+class="left-0 rounded-md max-w-[300px] mr-10"
 src="./public/Gif.jpeg" width="300px" height="auto" alt="Clown" />
 =======
- <br/>
+ </br>
 <p align="left" font >Like to design user friendly products and web applications with a specialization in Frontend.</p>
 
 - 🌱 I’m currently learning **HTML, CSS and JavaScript**.
