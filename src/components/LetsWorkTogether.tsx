@@ -1,5 +1,5 @@
 import React from "react";
-import Vector from "../assets/Vector.png";
+import Vector from "../assets/Vector.svg";
 import "./Style.css";
 
 function LetsWorkTogether() {
@@ -16,8 +16,8 @@ function LetsWorkTogether() {
           </p>
         </div>
         <div className="flex gap-4 mt-10 justify-center items-center">
-          <button className="shadow-inner flex gap-2 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7">
-            <img src={Vector} alt="" /> Get in touch
+          <button className="shadow-inner flex gap-2.5 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7">
+            <img src={Vector} alt="" className="w-[20px]" /> Get in touch
           </button>
         </div>
       </div>
