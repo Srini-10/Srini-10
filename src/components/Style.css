@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.inter-font-style-1 {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "slnt" 0;
+  font-feature-settings: "liga" 1, "calt" 1;
+}
+.inter-font-style-2 {
+  color: darkgray;
+}
+
+.Red-Gradient {
+  background-image: radial-gradient(closest-side, #e93f3f, black);
+  min-width: 798px;
+  min-height: 478px;
+  position: absolute;
+  opacity: 35%;
+}
+.Blue-Gradient {
+  background-image: radial-gradient(closest-side, #3f64e9, black);
+  margin-left: -500px;
+  min-width: 698px;
+  min-height: 378px;
+  position: absolute;
+  opacity: 35%;
+}
+.Yellow-Gradient {
+  background-image: radial-gradient(closest-side, #ffb800, black);
+  margin-right: -500px;
+  min-width: 698px;
+  min-height: 378px;
+  position: absolute;
+  opacity: 35%;
+}
+
+.Nav_Links li,
+img {
+  cursor: pointer;
+}
+
+/* Footer Gradients */
+.Red-Gradient2 {
+  background-image: radial-gradient(closest-side, #e93f3f, black);
+  min-width: 798px;
+  min-height: 478px;
+  position: absolute;
+  opacity: 35%;
+}
+.Blue-Gradient2 {
+  background-image: radial-gradient(closest-side, #3f64e9, black);
+  margin-right: -500px;
+  min-width: 698px;
+  min-height: 378px;
+  position: absolute;
+  opacity: 35%;
+}
+.Yellow-Gradient2 {
+  background-image: radial-gradient(closest-side, #ffb800, black);
+  margin-left: -500px;
+  min-width: 698px;
+  min-height: 378px;
+  position: absolute;
+  opacity: 35%;
+}
+
+.Footer_Links li {
+  cursor: pointer;
+}
