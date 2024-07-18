@@ -2,7 +2,6 @@
 <h1>I'm Srinivasan</h1>
 <img w="100%"
 src="https://lottie.host/embed/1dc6f38c-b4b8-425a-bd41-101879b6eb70/5Zwmyc6oGG.json">
-<iframe src="https://lottie.host/embed/1dc6f38c-b4b8-425a-bd41-101879b6eb70/5Zwmyc6oGG.json"></iframe>
 
 <p align="left" font >Like to design user friendly products and web applications with a specialization in Frontend.</p>
 
