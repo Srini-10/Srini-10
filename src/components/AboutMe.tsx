@@ -4,7 +4,7 @@ import Github from "../assets/Navbar/Github.svg";
 import LinkedIn from "../assets/Navbar/LinkedIn.svg";
 import X from "../assets/Navbar/X.svg";
 import Circle_Portrait from "../assets/Circle_Portrait.png";
-import Logo from "../assets/Logo.png";
+import Logo from "../assets/Face2.png";
 import DownArrow from "../assets/DownArrow.svg";
 import "./Style.css";
 
@@ -31,15 +31,27 @@ function AboutMe() {
             </ul>
           </div>
           <div className="Nav_Links flex gap-6">
-            <img
-              src={LinkedIn}
-              alt=""
-              className="rounded-lg w-[28px] h-[28px]"
-            />
-            <img src={X} alt="" className="rounded-lg w-[28px] h-[28px]" />
-            <img src={Github} alt="" className="rounded-lg w-[28px] h-[28px]" />
+            <a href="https://www.linkedin.com/in/srinivasan-p-32583127a/">
+              <img
+                src={LinkedIn}
+                alt=""
+                className="rounded-lg w-[28px] h-[28px]"
+              />
+            </a>
+            <a href="https://x.com/SrinivasanP1018">
+              <img src={X} alt="" className="rounded-lg w-[28px] h-[28px]" />
+            </a>
+            <a href="https://github.com/Srini-10">
+              <img
+                src={Github}
+                alt=""
+                className="rounded-lg w-[28px] h-[28px]"
+              />
+            </a>
             <div className="w-[1px] h-[auto] bg-neutral-400"></div>
-            <img src={Sun} alt="" className="rounded-lg w-[28px] h-[28px]" />
+            <button>
+              <img src={Sun} alt="" className="rounded-lg w-[28px] h-[28px]" />
+            </button>
           </div>
         </div>
         <div className="mx-auto w-[68%] mt-[15vh]">
