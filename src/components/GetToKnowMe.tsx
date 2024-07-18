@@ -3,6 +3,7 @@ import Bookshelf from "../assets/GetToKnowMe/Bookshelf.png";
 import Group from "../assets/GetToKnowMe/Group.png";
 import SriniAnimation from "../assets/Face2.png";
 import Notebook from "../assets/GetToKnowMe/Notebook.png";
+import "./Style.css";
 
 function GetToKnowMe() {
   return (
@@ -28,7 +29,7 @@ function GetToKnowMe() {
             <p className="text-neutral-400 text-[16px]">
               My thoughts, insights, and reflections
             </p>
-            <img src={Notebook} alt="" className="mx-auto" />
+            <img src={Notebook} alt="" className="mx-auto mt-[15px]" />
           </div>
           <div className="w-full min-w-[480px] h-[60vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
             <h1 className="font-bold text-[32px]">Bookshelf</h1>

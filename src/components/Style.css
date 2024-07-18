@@ -68,3 +68,14 @@ img {
 .Footer_Links li {
   cursor: pointer;
 }
+
+/* Button Hover Animation */
+.Button .Arrow {
+  margin-left: 2px;
+  transition: 0.3s;
+}
+.Button:hover .Arrow {
+  margin-left: 6px;
+  transition: 0.3s;
+  color: rgb(0, 119, 238);
+}

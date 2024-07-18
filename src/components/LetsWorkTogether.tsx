@@ -1,5 +1,6 @@
 import React from "react";
 import Vector from "../assets/Vector.png";
+import "./Style.css";
 
 function LetsWorkTogether() {
   return (
