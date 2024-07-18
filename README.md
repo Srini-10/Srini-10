@@ -16,7 +16,7 @@ src="./public/Gif2.png" width="350px" alt="Clown" />
 
 - 💬 Ask me about **MERN Stack Development**
 
-<p><b>Email :</b> srinivasanp1018@gmail.com</a>
+<p class="text-blue-500"><b class="text-white">Email :</b> srinivasanp1018@gmail.com</a>
 
 <h3 align="left">Languages and Tools:</h3> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="80" height="80"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="80" height="80"/><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="80" height="80"/>
   </p>
