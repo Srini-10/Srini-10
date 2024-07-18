@@ -3,7 +3,7 @@
 <img w="300px" radius="20px" align="left"
 <<<<<<< HEAD
 class="left-0 rounded-md max-w-[300px] mr-10"
-src="./public/Gif.jpeg" width="300px" height="auto" alt="Clown" />
+src="./public/Gif.jpeg" width="500px" height="auto" alt="Clown" />
 =======
  </br>
 <p align="left" font left="10px" >Like to design user friendly products and web applications with a specialization in Frontend.</p>
