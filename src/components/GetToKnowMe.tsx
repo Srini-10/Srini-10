@@ -1,7 +1,7 @@
 import React from "react";
 import Bookshelf from "../assets/GetToKnowMe/Bookshelf.png";
 import Group from "../assets/GetToKnowMe/Group.png";
-import SriniAnimation from "../assets/GetToKnowMe/SriniAnimation.png";
+import SriniAnimation from "../assets/Face2.png";
 import Notebook from "../assets/GetToKnowMe/Notebook.png";
 
 function GetToKnowMe() {
@@ -17,7 +17,11 @@ function GetToKnowMe() {
             <p className="text-neutral-400 text-[16px]">
               Who I am and what I do
             </p>
-            <img src={SriniAnimation} alt="" className="mx-auto mt-10" />
+            <img
+              src={SriniAnimation}
+              alt=""
+              className="mx-auto w-[290px] mt-10"
+            />
           </div>
           <div className="w-full min-w-[480px] h-[60vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
             <h1 className="font-bold text-[32px]">Notebook</h1>
