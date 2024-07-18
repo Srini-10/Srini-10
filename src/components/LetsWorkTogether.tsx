@@ -5,7 +5,7 @@ import "./Style.css";
 function LetsWorkTogether() {
   return (
     <>
-      <div className="mx-auto w-[68%] flex justify-between mb-20 mt-[15vh]">
+      <div className="mx-auto w-[68%] flex snap-center justify-between mb-20 mt-[15vh]">
         <div>
           <p className="inter-font-style-1 text-white items-center flex gap-[15px] text-[50px]">
             Let’s work together

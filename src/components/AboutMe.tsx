@@ -5,7 +5,7 @@ import "./Style.css";
 function AboutMe() {
   return (
     <>
-      <div className="min-h-[94.9vh] max-h-[100vh]">
+      <div className="min-h-[94.9vh] snap-start max-h-[100vh]">
         <div className="mx-auto w-[68%] mt-[15vh]">
           <img
             src={Circle_Portrait}

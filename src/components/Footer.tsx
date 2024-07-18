@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div className="h-[0.1px] w-full bg-neutral-600"></div>
-      <div className="overflow-hidden h-[290px]">
+      <div className="overflow-hidden h-[290px] snap-end">
         <div className="flex justify-between z-50 w-[68%] mt-12 mx-auto">
           <div>
             <img src={Logo} alt="" className="rounded-lg w-[70px] h-[70px]" />

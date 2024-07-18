@@ -13,7 +13,7 @@ function GetToKnowMe() {
           Get To Know Me
         </p>
         <div className="mt-4 grid grid-cols-2 gap-3">
-          <div className="w-full min-w-[480px] h-[60vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
+          <div className="w-full min-w-[480px] snap-center h-[60vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
             <h1 className="font-bold text-[32px]">About me</h1>
             <p className="text-neutral-400 text-[16px]">
               Who I am and what I do
@@ -31,7 +31,7 @@ function GetToKnowMe() {
             </p>
             <img src={Notebook} alt="" className="mx-auto mt-[15px]" />
           </div>
-          <div className="w-full min-w-[480px] h-[60vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
+          <div className="w-full min-w-[480px] h-[60vh] snap-center max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-14 bg-neutral-900">
             <h1 className="font-bold text-[32px]">Bookshelf</h1>
             <p className="text-neutral-400 text-[16px]">
               Books and pieces of wisdom I’ve enjoyed reading

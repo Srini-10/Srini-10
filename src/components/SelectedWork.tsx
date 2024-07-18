@@ -17,7 +17,7 @@ function SelectedWork() {
           Selected Work
         </p>
         <div className="mt-4">
-          <div className="w-full min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
+          <div className="w-full snap-center min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
             <div>
               <img
                 src={Logo1}
@@ -47,7 +47,7 @@ function SelectedWork() {
               />
             </div>
           </div>
-          <div className="w-full min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
+          <div className="w-full snap-center min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
             <div>
               <img
                 src={Logo2}
@@ -81,7 +81,7 @@ function SelectedWork() {
               />
             </div>
           </div>
-          <div className="w-full min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
+          <div className="w-full snap-center min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
             <div>
               <img
                 src={Logo3}
@@ -115,7 +115,7 @@ function SelectedWork() {
               />
             </div>
           </div>
-          <div className="w-full min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
+          <div className="w-full snap-center min-h-[68vh] flex max-h-[560px] overflow-hidden pl-14 pt-14 bg-neutral-900 rounded-[40px] border-[1px] border-neutral-700 mb-7">
             <div>
               <img
                 src={Logo4}

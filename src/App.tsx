@@ -10,12 +10,14 @@ import Navbar from "./components/Navbar.tsx";
 function App() {
   return (
     <>
-      <Navbar />
-      <AboutMe />
-      <SelectedWork />
-      <GetToKnowMe />
-      <LetsWorkTogether />
-      <Footer />
+      <div className="scroll-smooth focus:scroll-auto">
+        <Navbar />
+        <AboutMe />
+        <SelectedWork />
+        <GetToKnowMe />
+        <LetsWorkTogether />
+        <Footer />
+      </div>
     </>
   );
 }
