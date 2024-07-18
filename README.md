@@ -5,7 +5,7 @@
 class="left-0 rounded-md max-w-[300px]"
 src="./public/Gif.jpeg" width="300px" height="auto" alt="Clown" />
 =======
-
+ <br/>
 <p align="left" font >Like to design user friendly products and web applications with a specialization in Frontend.</p>
 
 - 🌱 I’m currently learning **HTML, CSS and JavaScript**.
