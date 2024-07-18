@@ -1,8 +1,10 @@
 <p>Hi There👋</p>
 <h1>I'm Srinivasan</h1>
 <img w="100%"
+<<<<<<< HEAD
 class="center mx-auto rounded-md"
 src="./public/Gif.jpeg">
+=======
 
 <p align="left" font >Like to design user friendly products and web applications with a specialization in Frontend.</p>
 
