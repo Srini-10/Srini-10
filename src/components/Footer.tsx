@@ -21,16 +21,16 @@ function Footer() {
           <div className="Footer_Links z-50 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
             <ul className="Footer_Links">
               <h1 className="text-white text-[18px] mb-2 font-bold">Links</h1>
-              <Link target="_blank" to="/About">
+              <Link to="/About">
                 <li className="cursor-pointer">About</li>
               </Link>
-              <Link target="_blank" to="/Work">
+              <Link to="/Work">
                 <li className="cursor-pointer">Work</li>
               </Link>
-              <Link target="_blank" to="/TechStack">
+              <Link to="/TechStack">
                 <li className="cursor-pointer">Tech Stack</li>
               </Link>
-              <Link target="_blank" to="/Contact">
+              <Link to="/Contact">
                 <li className="cursor-pointer">Contact</li>
               </Link>
             </ul>

@@ -21,8 +21,6 @@ function App() {
             <Route path="/Work" element={<Work />} />
             <Route path="/TechStack" element={<TechStack />} />
             <Route path="/Contact" element={<Contact />} />
-            {/* <Route path="/Bookshelf" element={<Bookshelf />} />
-            <Route path="/UIKit" element={<UIKit />} /> */}
           </Routes>
         </div>
         <Footer />

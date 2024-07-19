@@ -2,6 +2,7 @@ import React from "react";
 import Geist from "../../assets/About/Geist.png";
 import Vector from "../../assets/Vector.svg";
 import Signature from "../../assets/About/Signature.png";
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -57,16 +58,22 @@ function About() {
               <b>Resume</b>, or Connect with me on <b>LinkedIn</b>.
             </p>
             <p>Let's build something grate,</p>
-            <img src={Signature} alt="" className="mt-1 w-[450px] -rotate-[8deg]" />
+            <img
+              src={Signature}
+              alt=""
+              className="mt-1 w-[450px] -rotate-[8deg]"
+            />
           </div>
           <div>
             <div className="min-w-[300px] h-[390px] rounded-xl border-[1.5px] mt-[25px] justify-center items-center flex p-9 border-neutral-800">
               <img src={Geist} alt="" />
             </div>
             <div className="flex gap-4 mt-20 justify-center items-center">
-              <button className="shadow-inner flex gap-2.5 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7">
-                <img src={Vector} alt="" className="w-[20px]" /> Get in touch
-              </button>
+              <Link to="/Contact">
+                <button className="shadow-inner flex gap-2.5 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7">
+                  <img src={Vector} alt="" className="w-[20px]" /> Get in touch
+                </button>
+              </Link>
             </div>
           </div>
         </div>

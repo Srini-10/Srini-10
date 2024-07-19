@@ -111,19 +111,22 @@ function Navbar() {
           </ul>
         </div>
         <div className="Nav_Links flex gap-6">
-          <a href="https://www.linkedin.com/in/srinivasan-p-32583127a/">
+          <Link
+            target="_blank"
+            to="https://www.linkedin.com/in/srinivasan-p-32583127a/"
+          >
             <img
               src={LinkedIn}
               alt=""
               className="rounded-lg w-[28px] h-[28px]"
             />
-          </a>
-          <a href="https://x.com/SrinivasanP1018">
+          </Link>
+          <Link target="_blank" to="https://x.com/SrinivasanP1018">
             <img src={X} alt="" className="rounded-lg w-[28px] h-[28px]" />
-          </a>
-          <a href="https://github.com/Srini-10">
+          </Link>
+          <Link target="_blank" to="https://github.com/Srini-10">
             <img src={Github} alt="" className="rounded-lg w-[28px] h-[28px]" />
-          </a>
+          </Link>
           <div className="w-[1px] h-[auto] bg-neutral-400"></div>
           <button>
             <img src={Sun} alt="" className="rounded-lg w-[28px] h-[28px]" />
