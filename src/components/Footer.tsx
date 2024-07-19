@@ -1,38 +1,61 @@
 import React from "react";
 import Logo from "../assets/Face2.png";
 import "./Style.css";
+import { Link } from "react-router-dom";
 
 function Footer() {
   return (
     <>
-      <div className="h-[0.1px] w-full relative bg-neutral-600"></div>
-      <div className="overflow-hidden h-[290px] snap-end">
+      <div className="h-[0.1px] w-full z-50 relative bg-neutral-600"></div>
+      <div className="overflow-hidden z-50 h-[290px] snap-end">
         <div className="flex justify-between z-50 w-[68%] mt-12 mx-auto">
-          <div>
+          <div className="z-50">
             <img src={Logo} alt="" className="rounded-lg w-[70px] h-[70px]" />
-            <p className="text-[14px] text-neutral-400 mt-1">
+            <p className="text-[14px] z-[999] text-neutral-400 mt-1">
               Thanks for stopping by ッ
             </p>
             <p className="text-[14px] text-neutral-400 mt-[90px]">
               © 2024 Srinivasan. All Rights Reserved.
             </p>
           </div>
-          <div className="Footer_Links text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
+          <div className="Footer_Links z-50 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
             <ul className="Footer_Links">
               <h1 className="text-white text-[18px] mb-2 font-bold">Links</h1>
-              <li>About</li>
-              <li>Work</li>
-              <li>Tech Stack</li>
-              <li>Contact</li>
+              <Link target="_blank" to="/About">
+                <li className="cursor-pointer">About</li>
+              </Link>
+              <Link target="_blank" to="/Work">
+                <li className="cursor-pointer">Work</li>
+              </Link>
+              <Link target="_blank" to="/TechStack">
+                <li className="cursor-pointer">Tech Stack</li>
+              </Link>
+              <Link target="_blank" to="/Contact">
+                <li className="cursor-pointer">Contact</li>
+              </Link>
             </ul>
             <ul className="Footer_Links">
               <h1 className="text-white text-[18px] mb-2 font-bold">
                 Elsewhere
               </h1>
-              <li>Email</li>
-              <li>LinkedIn</li>
-              <li>GitHub</li>
-              <li>Twitter</li>
+              <Link
+                target="_blank"
+                to="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVNNXjRVQcSgJwJZbBWwchqwHsxQGjgLGPbtxrRcNXZjXgXqJsHLHdcBvdSlplzJGlWKg"
+              >
+                <li className="cursor-pointer">Email</li>
+              </Link>
+              <Link
+                target="_blank"
+                to="https://www.linkedin.com/in/srinivasan-p-32583127a/"
+              >
+                <li className="cursor-pointer">LinkedIn</li>
+              </Link>
+              <Link target="_blank" to="https://github.com/Srini-10">
+                <li className="cursor-pointer">GitHub</li>
+              </Link>
+              <Link target="_blank" to="https://x.com/SrinivasanP1018">
+                <li className="cursor-pointer">Twitter</li>
+              </Link>
             </ul>
           </div>
         </div>

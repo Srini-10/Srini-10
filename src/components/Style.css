@@ -11,6 +11,10 @@
   color: white;
 }
 
+.textarea {
+  resize: none;
+}
+
 .nav-link::after {
   content: "";
   position: absolute;

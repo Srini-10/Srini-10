@@ -7,6 +7,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.tsx";
 import Footer from "./components/Footer.tsx";
 import TechStack from "./components/TechStack/TechStack.tsx";
+import Contact from "./components/Contact/Contact.tsx";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/About" element={<About />} />
             <Route path="/Work" element={<Work />} />
             <Route path="/TechStack" element={<TechStack />} />
+            <Route path="/Contact" element={<Contact />} />
             {/* <Route path="/Bookshelf" element={<Bookshelf />} />
             <Route path="/UIKit" element={<UIKit />} /> */}
           </Routes>

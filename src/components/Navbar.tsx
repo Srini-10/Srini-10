@@ -77,7 +77,7 @@ function Navbar() {
             >
               <li>Contact</li>
             </Link>
-            <li className="relative dropdown-menu">
+            {/* <li className="relative dropdown-menu">
               <button
                 onClick={toggleDropdown}
                 className="flex gap-0.5 items-center"
@@ -107,7 +107,7 @@ function Navbar() {
                   </Link>
                 </li>
               </ul>
-            </li>
+            </li> */}
           </ul>
         </div>
         <div className="Nav_Links flex gap-6">
