@@ -1,6 +1,6 @@
 import React from "react";
-import Vector from "../assets/Vector.svg";
-import "./Style.css";
+import Vector from "../../assets/Vector.svg";
+import "../Style.css";
 
 function LetsWorkTogether() {
   return (

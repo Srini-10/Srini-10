@@ -1,13 +1,13 @@
 import React from "react";
-import Logo1 from "../assets/TuneUp_Logo.jpg";
-import Logo2 from "../assets/KMM_Logo.png";
-import Logo3 from "../assets/Gemini_Logo.png";
-import Logo4 from "../assets/Pexels_Logo.png";
-import Gemini from "../assets/Gemini.png";
-import Pexels from "../assets/Pexels.png";
-import TuneUp from "../assets/TuneUp.png";
-import KMM from "../assets/KMM.png";
-import "./Style.css";
+import Logo1 from "../../assets/TuneUp_Logo.jpg";
+import Logo2 from "../../assets/KMM_Logo.png";
+import Logo3 from "../../assets/Gemini_Logo.png";
+import Logo4 from "../../assets/Pexels_Logo.png";
+import Gemini from "../../assets/Gemini.png";
+import Pexels from "../../assets/Pexels.png";
+import TuneUp from "../../assets/TuneUp.png";
+import KMM from "../../assets/KMM.png";
+import "../Style.css";
 
 function SelectedWork() {
   return (

@@ -1,6 +1,6 @@
 import React from "react";
-import Circle_Portrait from "../assets/Circle_Portrait.png";
-import "./Style.css";
+import Circle_Portrait from "../../assets/Circle_Portrait.png";
+import "../Style.css";
 
 function AboutMe() {
   return (

@@ -1,9 +1,9 @@
 import React from "react";
-import Bookshelf from "../assets/GetToKnowMe/Bookshelf.png";
-import Group from "../assets/GetToKnowMe/Group.png";
-import SriniAnimation from "../assets/Face2.png";
-import Notebook from "../assets/GetToKnowMe/Notebook.png";
-import "./Style.css";
+import Bookshelf from "../../assets/GetToKnowMe/Bookshelf.png";
+import Group from "../../assets/GetToKnowMe/Group.png";
+import SriniAnimation from "../../assets/Face2.png";
+import Notebook from "../../assets/GetToKnowMe/Notebook.png";
+import "../Style.css";
 
 function GetToKnowMe() {
   return (
