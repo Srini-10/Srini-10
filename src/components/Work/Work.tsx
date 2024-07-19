@@ -14,7 +14,7 @@ import "../Style.css";
 function Work() {
   return (
     <>
-      <div className="mb-[90px]">
+      <div className="mb-[80px] scroll-smooth focus:scroll-auto">
         <div className="mx-auto w-[68%] mt-[15vh]">
           <p className="inter-font-style-1 text-white items-center flex gap-[15px] text-[80px]">
             Projects

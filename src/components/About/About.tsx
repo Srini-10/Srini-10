@@ -6,7 +6,7 @@ import Signature from "../../assets/About/Signature.png";
 function About() {
   return (
     <>
-      <div className="h-[100vh] mb-[390px]">
+      <div className="mb-[80px] relative scroll-smooth focus:scroll-auto">
         <div className="mx-auto w-[68%] mt-[15vh]">
           <p className="inter-font-style-1 text-white items-center flex gap-[15px] text-[80px]">
             A little bit about me
@@ -16,7 +16,7 @@ function About() {
           </p>
         </div>
         <div className="h-[0.5px] w-full mt-14 bg-neutral-600"></div>
-        <div className="text-neutral-400 flex gap-10 font-normal text-[17px] h-[100vh] w-[68%] mt-[50px] mx-auto">
+        <div className="text-neutral-400 flex gap-10 font-normal text-[17px] w-[68%] mt-[50px] mx-auto">
           <div>
             <h1 className="text-neutral-600 font-semibold mb-1 mt-6 text-[16px]">
               WHO AM I
@@ -57,7 +57,7 @@ function About() {
               <b>Resume</b>, or Connect with me on <b>LinkedIn</b>.
             </p>
             <p>Let's build something grate,</p>
-            <img src={Signature} alt="" className="mt-10" />
+            <img src={Signature} alt="" className="mt-1 w-[450px] -rotate-[8deg]" />
           </div>
           <div>
             <div className="min-w-[300px] h-[390px] rounded-xl border-[1.5px] mt-[25px] justify-center items-center flex p-9 border-neutral-800">

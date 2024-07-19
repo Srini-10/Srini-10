@@ -15,8 +15,8 @@ import Mantine from "../../assets/Tech_Card/Tools/Mantine.png";
 import Relume from "../../assets/Tech_Card/Tools/Relume.png";
 
 // Apps List
-import ChatGPT from "../../assets/Tech_Card/Apps/ChatGPT.svg";
-import Brave from "../../assets/Tech_Card/Apps/Brave.svg";
+import ChatGPT from "../../assets/Tech_Card/Apps/ChatGPT.png";
+import Brave from "../../assets/Tech_Card/Apps/Brave.png";
 import Chrome from "../../assets/Tech_Card/Apps/Chrome.svg";
 import Discord from "../../assets/Tech_Card/Apps/Discord.svg";
 import Duolingo from "../../assets/Tech_Card/Apps/Duolingo.svg";
@@ -24,6 +24,19 @@ import Slack from "../../assets/Tech_Card/Apps/Slack.svg";
 import Spotify from "../../assets/Tech_Card/Apps/Spotify.svg";
 import MongoDB from "../../assets/Tech_Card/Apps/MongoDB.png";
 import PostMan from "../../assets/Tech_Card/Apps/Postman.png";
+
+// Office Tools
+import Excel from "../../assets/Tech_Card/Apps/Excel.png";
+import Word from "../../assets/Tech_Card/Apps/Word.png";
+import PowerPoint from "../../assets/Tech_Card/Apps/PowerPoint.png";
+
+// Editing Tools
+import FCP from "../../assets/Tech_Card/Apps/FCP.png";
+import AM from "../../assets/Tech_Card/Apps/AM.png";
+import AE from "../../assets/Tech_Card/Apps/AE.png";
+import PP from "../../assets/Tech_Card/Apps/PP.png";
+import PS from "../../assets/Tech_Card/Apps/PS.png";
+import Blender from "../../assets/Tech_Card/Apps/Blender.png";
 
 // Hardwares List
 import Laptop from "../../assets/Tech_Card/Hardware/Laptop.svg";
@@ -37,7 +50,7 @@ import COC from "../../assets/Tech_Card/Game/COC.png";
 function TechStack() {
   return (
     <>
-      <div className="h-[100vh] mb-[2900px]">
+      <div className="mb-[80px] scroll-smooth focus:scroll-auto">
         <div className="mx-auto w-[68%] mt-[15vh]">
           <p className="inter-font-style-1 text-white items-center flex gap-[15px] text-[80px]">
             Tech Stack
@@ -50,7 +63,7 @@ function TechStack() {
 
         {/* Dev & Design List */}
         <div className="mx-auto w-[68%] mt-10">
-          <p className="inter-font-style-1 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+          <p className="inter-font-style-1 mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
             Dev & Design
           </p>
           <div className="mt-4 grid grid-cols-3 gap-3">
@@ -61,9 +74,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Figma</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Design
                 </button>
               </div>
             </div>
@@ -74,9 +87,11 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">
+                  Framer Motion
+                </h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Animation
                 </button>
               </div>
             </div>
@@ -87,7 +102,7 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">GitHub</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
                   Vision Control
                 </button>
@@ -100,9 +115,11 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">
+                  React Hooks Form
+                </h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Library
                 </button>
               </div>
             </div>
@@ -113,9 +130,11 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">
+                  Tailwind CSS
+                </h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  CSS
                 </button>
               </div>
             </div>
@@ -126,9 +145,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">TypeScript</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Language
                 </button>
               </div>
             </div>
@@ -139,9 +158,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Vercel</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Deployment
                 </button>
               </div>
             </div>
@@ -152,9 +171,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">VS Code</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Editor
                 </button>
               </div>
             </div>
@@ -165,9 +184,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Wrap</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Terminal
                 </button>
               </div>
             </div>
@@ -178,9 +197,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Next UI</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  UI Library
                 </button>
               </div>
             </div>
@@ -191,9 +210,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Mantine UI</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  UI Library
                 </button>
               </div>
             </div>
@@ -204,9 +223,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Relume AI</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Wireframe Design
                 </button>
               </div>
             </div>
@@ -215,7 +234,7 @@ function TechStack() {
 
         {/* Apps List */}
         <div className="mx-auto w-[68%] mt-10">
-          <p className="inter-font-style-1 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+          <p className="inter-font-style-1  mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
             Apps
           </p>
           <div className="mt-4 grid grid-cols-3 gap-3">
@@ -226,9 +245,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">ChatGPT</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Productivity
                 </button>
               </div>
             </div>
@@ -239,9 +258,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Brave</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  browser
                 </button>
               </div>
             </div>
@@ -252,9 +271,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Chrome</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Browser
                 </button>
               </div>
             </div>
@@ -265,9 +284,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Discord</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Communication
                 </button>
               </div>
             </div>
@@ -278,9 +297,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Duolingo</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Education
                 </button>
               </div>
             </div>
@@ -291,9 +310,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Slack</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Communication
                 </button>
               </div>
             </div>
@@ -304,9 +323,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">MongoDB</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Database
                 </button>
               </div>
             </div>
@@ -317,9 +336,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Postman</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  API Fetch
                 </button>
               </div>
             </div>
@@ -330,57 +349,152 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Spotify</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Music
                 </button>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Hardware List */}
+        {/* Office Tools List */}
         <div className="mx-auto w-[68%] mt-10">
-          <p className="inter-font-style-1 text-neutral-500 items-center flex gap-[15px] text-[48px]">
-            Hardware
+          <p className="inter-font-style-1 mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+            Office Tools
           </p>
           <div className="mt-4 grid grid-cols-3 gap-3">
             <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
               <img
-                src={Laptop}
+                src={Excel}
                 alt=""
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Excel</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Data Entry
                 </button>
               </div>
             </div>
             <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
               <img
-                src={Pixel}
+                src={Word}
                 alt=""
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">Word</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Documentation
                 </button>
               </div>
             </div>
             <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
               <img
-                src={Earpods}
+                src={PowerPoint}
                 alt=""
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">PowerPoint</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Presentation
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Editing Tools List */}
+        <div className="mx-auto w-[68%] mt-10">
+          <p className="inter-font-style-1 mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+            Editing Tools
+          </p>
+          <div className="mt-4 grid grid-cols-3 gap-3">
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={FCP}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">
+                  Final Cut Pro
+                </h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Video Editing
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={AM}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">
+                  Alight Motion
+                </h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Mobile Editing
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={AE}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">
+                  After Effects
+                </h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Video & 3D Render
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={PP}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">
+                  Premier Pro
+                </h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Video Editing
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={Blender}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">Blender</h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  3D and VFX
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={PS}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">Photo Shop</h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Photo Editing
                 </button>
               </div>
             </div>
@@ -389,7 +503,7 @@ function TechStack() {
 
         {/* Game List */}
         <div className="mx-auto w-[68%] mt-10">
-          <p className="inter-font-style-1 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+          <p className="inter-font-style-1 mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
             Games
           </p>
           <div className="mt-4 grid grid-cols-3 gap-3">
@@ -400,9 +514,9 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">BGMI</h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  Battleground Game
                 </button>
               </div>
             </div>
@@ -413,9 +527,59 @@ function TechStack() {
                 className="mx-auto w-full px-[28%] mb-14 mt-3"
               />
               <div className="flex items-center justify-between mt-4 px-[7%]">
-                <h1 className="font-bold text-white text-[25px]">GitHub</h1>
+                <h1 className="font-bold text-white text-[21px]">
+                  Clash of Clans
+                </h1>
                 <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
-                  Vision Control
+                  MMORTS Game
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Hardware List */}
+        <div className="mx-auto w-[68%] mt-10">
+          <p className="inter-font-style-1 mb-1 mt-3 text-neutral-500 items-center flex gap-[15px] text-[48px]">
+            Hardware
+          </p>
+          <div className="mt-4 grid grid-cols-3 gap-3">
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={Laptop}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">Laptop</h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Macbook Air M1
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={Pixel}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">Mobile</h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Pixel 8
+                </button>
+              </div>
+            </div>
+            <div className="w-full snap-center h-[40vh] max-h-[480px] rounded-3xl justify-center overflow-hidden text-center pt-11 bg-neutral-900">
+              <img
+                src={Earpods}
+                alt=""
+                className="mx-auto w-full px-[28%] mb-14 mt-3"
+              />
+              <div className="flex items-center justify-between mt-4 px-[7%]">
+                <h1 className="font-bold text-white text-[21px]">EarPods</h1>
+                <button className="text-neutral-400 border-[1px] rounded-full border-neutral-700 px-4 py-1.5 text-[12px]">
+                  Apple EarPods
                 </button>
               </div>
             </div>
