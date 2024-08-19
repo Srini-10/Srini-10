@@ -19,7 +19,7 @@ function Footer() {
               © 2024 Srinivasan. All Rights Reserved.
             </p>
           </div>
-          <div className="Responsive-Footer-Links Footer_Links z-50 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
+          <div className="Responsive-Footer-Links Footer_Links z-30 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
             <ul className="Footer_Links">
               <h1 className="text-white text-[18px] mb-2 font-bold">Links</h1>
               <Link to="/About">

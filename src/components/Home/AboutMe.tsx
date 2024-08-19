@@ -6,6 +6,8 @@ import { Worker, Viewer } from "@react-pdf-viewer/core";
 import "@react-pdf-viewer/core/lib/styles/index.css";
 import ResumePDF from "../../assets/Resume.pdf";
 import Logo from "../../assets/Face2.png";
+import Design from "../../assets/Design.png";
+import Design2 from "../../assets/Design2.png";
 
 function AboutMe() {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -36,6 +38,16 @@ function AboutMe() {
             src={Circle_Portrait}
             alt=""
             className="Responsive-Image absolute right-[100px] mt-[-50px] opacity-75 w-[540px] h-[540px] -z-50"
+          />
+          <img
+            className="Design-Image absolute w-[200px] right-[100px] mt-[300px] opacity-75-z-50"
+            src={Design}
+            alt=""
+          />
+          <img
+            className="Design-Image absolute w-[200px] right-[430px] mt-[360px] opacity-75 -z-50"
+            src={Design2}
+            alt=""
           />
           <p className="inter-font-style-1 Responsive-Title hidden text-neutral-400 text-[80px]">
             Hi 👋
@@ -70,7 +82,7 @@ function AboutMe() {
           className="Responsive-Modal scroll-container fixed inset-0 bg-black bg-opacity-50 overflow-hidden flex items-center justify-center z-50 modal-overlay"
           onClick={handleClickOutside}
         >
-          <div className="Responsive-Modal-Contents bg-white px-auto rounded-lg shadow-lg relative max-w-[550px] justify-center overflow-hidden min-w-[550px] max-h-[84vh] overflow-y-auto">
+          <div className="Responsive-Modal-Contents bg-white px-auto rounded-lg shadow-lg relative max-w-[520px] justify-center overflow-hidden min-w-[520px] max-h-[84vh] overflow-y-auto">
             <button
               onClick={closeModal}
               className="Responsive-Modal-Close fixed top-3 text-[20px] right-4 text-gray-500 hover:text-gray-600"
@@ -81,7 +93,7 @@ function AboutMe() {
               <Worker
                 workerUrl={`https://unpkg.com/pdfjs-dist@2.16.105/build/pdf.worker.min.js`}
               >
-                <div className="Responsive-Modal-Content scale-[1.15] mt-[72px] mb-[45px] mx-auto">
+                <div className="Responsive-Modal-Content scale-[1.15] mt-[45px] ml-3 mb-[45px] mx-auto">
                   <Viewer fileUrl={ResumePDF} />
                 </div>
               </Worker>

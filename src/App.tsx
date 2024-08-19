@@ -17,7 +17,7 @@ function App() {
     // Simulate a loading process (e.g., fetching data)
     const timer = setTimeout(() => {
       setLoading(false);
-    }, 2000); // Adjust the duration as needed
+    }, 1000); // Adjust the duration as needed
 
     return () => clearTimeout(timer);
   }, []);

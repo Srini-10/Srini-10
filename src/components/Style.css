@@ -17,7 +17,7 @@
   animation: rotate 1.5s linear infinite;
   filter: blur(75px);
 }
-.outer-circle span {
+/* .outer-circle span {
   position: absolute;
   height: 100px;
   width: 100px;
@@ -36,7 +36,7 @@
 }
 .outer-circle span:nth-child(4) {
   filter: blur(150px);
-}
+} */
 .inner-circle {
   height: 92px;
   width: 92px;
@@ -376,6 +376,9 @@ img {
   }
 
   /* About Me */
+  .Design-Image {
+    display: none;
+  }
   .Responsive-AM {
     max-height: 550px;
     min-height: 550px;
