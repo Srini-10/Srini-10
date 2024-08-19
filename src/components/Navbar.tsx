@@ -6,6 +6,17 @@ import X from "../assets/Navbar/X.svg";
 import Logo from "../assets/Face2.png";
 import DownArrow from "../assets/DownArrow.svg";
 import { Link, useLocation } from "react-router-dom";
+import Home from "../assets/Responsive/Home - Outline.svg";
+import HomeActive from "../assets/Responsive/Home - Fill.svg";
+import Profile from "../assets/Responsive/User - Outline.svg";
+import ProfileActive from "../assets/Responsive/User - Fill.svg";
+import Work from "../assets/Responsive/Bag - Outline.svg";
+import WorkActive from "../assets/Responsive/Bag - Fill.svg";
+import TechStack from "../assets/Responsive/Pen - Outline.svg";
+import TechStackActive from "../assets/Responsive/Pen - Fill.svg";
+import Contact from "../assets/Responsive/Message - Outline.svg";
+import ContactActive from "../assets/Responsive/Message - Fill.svg";
+import Menu from "../assets/Responsive/More - Outline.svg";
 
 function Navbar() {
   const location = useLocation();
@@ -38,12 +49,12 @@ function Navbar() {
 
   return (
     <>
-      <div className="gradient-background blur-[60px] mt-[-230px] absolute mx-[16%] w-[68%] flex justify-center px-auto">
+      <div className="Responsive-Navbar gradient-background blur-[60px] mt-[-230px] absolute mx-[16%] w-[68%] flex justify-center px-auto">
         <div className="Blue-Gradient"></div>
         <div className="Red-Gradient"></div>
         <div className="Yellow-Gradient"></div>
       </div>
-      <div className="bg-neutral-800 bg-opacity-[19%] backdrop-blur-[80px] w-[68%] h-[60px] rounded-lg mx-auto mt-10 items-center px-6 flex justify-between">
+      <div className="Nav-Top bg-neutral-800 bg-opacity-[19%] backdrop-blur-[80px] w-[68%] h-[60px] rounded-lg mx-auto mt-10 items-center px-6 flex justify-between">
         <div className="flex justify-between">
           <Link to="/" className={`nav-icon ${isActive("/") ? "active" : ""}`}>
             <img src={Logo} alt="" className="rounded-lg w-[40px] h-[40px]" />
@@ -77,37 +88,6 @@ function Navbar() {
             >
               <li>Contact</li>
             </Link>
-            {/* <li className="relative dropdown-menu">
-              <button
-                onClick={toggleDropdown}
-                className="flex gap-0.5 items-center"
-              >
-                More <img src={DownArrow} alt="" className="w-[20px]" />
-              </button>
-              <ul
-                className={`absolute mt-[18.22px] w-48 rounded-br-2xl bg-neutral-800 bg-opacity-[19%] backdrop-blur-[80px] text-neutral-400 rounded-bl-2xl shadow-2xl z-10 transition-all duration-300 ease-in-out transform ${
-                  dropdownOpen
-                    ? "opacity-100 h-[120px] scale-100"
-                    : "opacity-0 h-[100px]"
-                }`}
-              >
-                <li className="px-4 py-2 hover:text-white">
-                  <Link to="/Notebook" onClick={closeDropdown}>
-                    Notebook
-                  </Link>
-                </li>
-                <li className="px-4 py-2 hover:text-white">
-                  <Link to="/Bookshelf" onClick={closeDropdown}>
-                    Bookshelf
-                  </Link>
-                </li>
-                <li className="px-4 py-2 hover:text-white">
-                  <Link to="/UIKit" onClick={closeDropdown}>
-                    This UI Kit
-                  </Link>
-                </li>
-              </ul>
-            </li> */}
           </ul>
         </div>
         <div className="Nav_Links flex gap-6">
@@ -132,6 +112,48 @@ function Navbar() {
             <img src={Sun} alt="" className="rounded-lg w-[28px] h-[28px]" />
           </button>
         </div>
+      </div>
+      <div className="Nav-Bottom hidden z-[99999999] w-[358px] rounded-[12px] h-[60px] p-[12px] mx-auto top-[86vh] bg-[#19191a] border-[1px] border-[#212128] fixed justify-between">
+        <Link
+          to="/"
+          className={`nav-bottom-link ${isActive("/") ? "active" : ""}`}
+          onClick={closeDropdown}
+        >
+          <img src={isActive("/") ? HomeActive : Home} alt="" />
+        </Link>
+        <Link
+          to="/About"
+          className={`nav-bottom-link ${isActive("/About") ? "active" : ""}`}
+          onClick={closeDropdown}
+        >
+          <img src={isActive("/About") ? ProfileActive : Profile} alt="" />
+        </Link>
+        <Link
+          to="/Work"
+          className={`nav-bottom-link ${isActive("/Work") ? "active" : ""}`}
+          onClick={closeDropdown}
+        >
+          <img src={isActive("/Work") ? WorkActive : Work} alt="" />
+        </Link>
+        <Link
+          to="/TechStack"
+          className={`nav-bottom-link ${
+            isActive("/TechStack") ? "active" : ""
+          }`}
+          onClick={closeDropdown}
+        >
+          <img
+            src={isActive("/TechStack") ? TechStackActive : TechStack}
+            alt=""
+          />
+        </Link>
+        <Link
+          to="/Contact"
+          className={`nav-bottom-link ${isActive("/Contact") ? "active" : ""}`}
+          onClick={closeDropdown}
+        >
+          <img src={isActive("/Contact") ? ContactActive : Contact} alt="" />
+        </Link>
       </div>
     </>
   );

@@ -1,5 +1,141 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 
+/* Loading Spinner */
+.loading-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+.outer-circle {
+  position: relative;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(#3f64e9, #ffb800, #e93f3f);
+  border-radius: 50%;
+  animation: rotate 1.5s linear infinite;
+  filter: blur(75px);
+}
+.outer-circle span {
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: linear-gradient(#3f64e9, #ffb800, #e93f3f);
+  border-radius: 50%;
+  filter: blur(75px);
+}
+.outer-circle span:nth-child(1) {
+  filter: blur(25px);
+}
+.outer-circle span:nth-child(2) {
+  filter: blur(30px);
+}
+.outer-circle span:nth-child(3) {
+  filter: blur(50px);
+}
+.outer-circle span:nth-child(4) {
+  filter: blur(150px);
+}
+.inner-circle {
+  height: 92px;
+  width: 92px;
+  position: absolute;
+  background: black;
+  top: 4px;
+  left: 4px;
+  border-radius: 50%;
+  z-index: 9;
+  color: white;
+  font-weight: 700;
+}
+@keyframes rotate {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+.dot-pulse {
+  position: relative;
+  left: -9999px;
+  width: 3px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+  box-shadow: 9999px 0 0 -5px;
+  animation: dot-pulse 1.5s infinite linear;
+  animation-delay: 0.25s;
+}
+.dot-pulse::after {
+  left: -6px;
+}
+.dot-pulse::before {
+  right: -6px;
+}
+.dot-pulse::before,
+.dot-pulse::after {
+  content: "";
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  width: 3px;
+  height: 3px;
+  border-radius: 5px;
+  background-color: #9880ff;
+  color: #9880ff;
+}
+.dot-pulse::before {
+  box-shadow: 9984px 0 0 -5px;
+  animation: dot-pulse-before 1.5s infinite linear;
+  animation-delay: 0s;
+}
+.dot-pulse::after {
+  box-shadow: 10014px 0 0 -5px;
+  animation: dot-pulse-after 1.5s infinite linear;
+  animation-delay: 0.5s;
+}
+
+@keyframes dot-pulse-before {
+  0% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 9984px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 9984px 0 0 -5px;
+  }
+}
+@keyframes dot-pulse {
+  0% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 9999px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 9999px 0 0 -5px;
+  }
+}
+@keyframes dot-pulse-after {
+  0% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+  30% {
+    box-shadow: 10014px 0 0 2px;
+  }
+  60%,
+  100% {
+    box-shadow: 10014px 0 0 -5px;
+  }
+}
+
 /* Navbar */
 .nav-link {
   position: relative;
@@ -50,6 +186,10 @@
   color: white;
 }
 
+.nav-bottom-link:hover {
+  color: white;
+}
+
 /* Home Page */
 .inter-font-style-1 {
   font-family: "Inter", sans-serif;
@@ -94,6 +234,7 @@ img {
 
 /* Footer Gradients */
 .Red-Gradient2 {
+  background: linear-gradient(to right, #3f64e9, #e93f3f, #ffb800);
   background-image: radial-gradient(closest-side, #e93f3f, black);
   min-width: 798px;
   min-height: 478px;
@@ -176,4 +317,461 @@ img {
 
 .fade-out {
   animation: fadeOut 0.8s forwards;
+}
+
+@media (max-width: 768px) {
+  /* Navbar */
+  .Nav-Top {
+    display: none;
+  }
+
+  .Nav-Bottom {
+    display: flex;
+    max-width: 90%;
+    min-width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .Nav-Bottom img {
+    width: 30px;
+  }
+
+  .Responsive-Navbar {
+    padding: 0;
+    width: 100%;
+    z-index: -9999;
+    margin: auto;
+    min-height: 500px;
+    overflow: hidden;
+    margin-top: -220px;
+    backdrop-filter: blur(100px);
+  }
+  .Red-Gradient {
+    background-image: radial-gradient(closest-side, #e93f3f, black);
+    min-width: 798px;
+    margin-top: -30px;
+    min-height: 478px;
+    position: absolute;
+    opacity: 35%;
+  }
+  .Blue-Gradient {
+    background-image: radial-gradient(closest-side, #3f64e9, black);
+    margin-left: -500px;
+    margin-top: -50px;
+    min-width: 698px;
+    min-height: 378px;
+    position: absolute;
+    opacity: 35%;
+  }
+  .Yellow-Gradient {
+    background-image: radial-gradient(closest-side, #ffb800, black);
+    margin-right: -500px;
+    margin-top: -50px;
+    min-width: 698px;
+    min-height: 378px;
+    position: absolute;
+    opacity: 35%;
+  }
+
+  /* About Me */
+  .Responsive-AM {
+    max-height: 550px;
+    min-height: 550px;
+  }
+  .Responsive-Main {
+    margin-top: 120px;
+  }
+  .Responsive-Image-Logo {
+    display: block;
+    width: 80px;
+    position: absolute;
+    right: 20px;
+    margin-top: -95px;
+  }
+  .Responsive-Image {
+    display: none;
+  }
+  .Responsive-Title {
+    font-size: 45px;
+    display: flex;
+    color: white;
+  }
+  .Responsive-Para {
+    font-size: 16px;
+    line-height: 20px;
+    width: 90%;
+    font-weight: 300;
+  }
+  .Responsive-Width {
+    width: 90%;
+  }
+  .Responsive-Button {
+    display: block;
+  }
+  .Responsive-Button1,
+  .Responsive-Button2 {
+    width: 100%;
+  }
+  .Responsive-Button2 {
+    margin-top: 10px;
+  }
+  .Responsive-Modal {
+    width: 90%;
+    margin: auto;
+  }
+  .Responsive-Modal-Contents {
+    max-width: 300px;
+    min-width: 300px;
+    height: 70vh;
+  }
+  .Responsive-Modal-Content {
+    scale: 1.2;
+    margin-top: 110px;
+    margin-bottom: 100px;
+  }
+  .Responsive-Modal-Close {
+    font-size: 30px;
+  }
+
+  /* Selected Work */
+  .Responsive-SW {
+    width: 90%;
+  }
+  .Responsive-SW-Title {
+    font-size: 32px;
+    max-width: 90%;
+  }
+  .Responsive-SW-SubTitle {
+    font-size: 21px;
+    max-width: 55%;
+    line-height: 30px;
+  }
+  .Responsive-SW-Para {
+    font-size: 15px;
+    max-width: 55%;
+    margin-top: 5px;
+  }
+  .Responsive-SW-Div {
+    padding: 40px 20px;
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .Responsive-SW-Img {
+    display: none;
+  }
+  .Button {
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+    width: 130px;
+  }
+  .Button-Gemini {
+    margin-top: 60px;
+  }
+
+  /* Get To Know Me */
+  .Responsive-KM {
+    width: 90%;
+  }
+  .Responsive-KM-Title {
+    font-size: 32px;
+    max-width: 90%;
+  }
+  .Responsive-KM-Container {
+    grid-template-columns: auto;
+    width: 100%;
+  }
+  .Responsive-KM-Div {
+    padding-top: 30px;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 324px;
+    max-height: 330px;
+  }
+  .Responsive-KM-Img1 {
+    margin-top: 5px;
+    width: 220px;
+  }
+  .Responsive-KM-Img2 {
+    width: 200px;
+  }
+  .Responsive-KM-Img3,
+  .Responsive-KM-Img4 {
+    width: 320px;
+  }
+
+  /* Let's Work Together */
+  .Responsive-WT {
+    min-width: 90%;
+    display: block;
+  }
+  .Responsive-WT-Title {
+    font-size: 32px;
+    text-align: center;
+    display: block;
+    min-width: 100%;
+  }
+  .Responsive-WT-Para {
+    width: 90%;
+    font-size: 15px;
+    justify-content: center;
+    text-align: center;
+  }
+  .Responsive-WT-ButtonMain {
+    display: block;
+  }
+  .Responsive-WT-Button {
+    min-width: 100%;
+    justify-content: center;
+  }
+
+  /* Footer */
+  .Responsive-Footer-Container {
+    height: 480px;
+    position: relative;
+    z-index: 9999;
+  }
+  .Responsive-Footer-Head {
+    margin-top: -10px;
+  }
+  .Responsive-Footer-Flex {
+    display: block;
+    width: 90%;
+  }
+  .Responsive-Footer-Links {
+    margin-top: -80px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+  }
+  .Responsive-Footer-CopyRight {
+    margin-top: 305px;
+    margin-bottom: -305px;
+    text-align: center;
+  }
+  .Responsive-Footer-UnderLine {
+    background: gray;
+    height: 0.5px;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    display: block;
+  }
+
+  /* About Page */
+  .Responsive-About {
+    width: 90%;
+    margin-top: 120px;
+  }
+  .Responsive-About-Title {
+    font-size: 48px;
+    line-height: 48px;
+    padding-top: 10px;
+  }
+  .Responsive-About-SubTitle {
+    font-size: 16px;
+    margin-top: 10px;
+    width: 90%;
+  }
+  .Responsive-About-Contents {
+    display: block;
+    width: 90%;
+  }
+  .Responsive-About-Sign {
+    display: none;
+  }
+  .Responsive-About-SignWhite {
+    width: 160px;
+    display: block;
+  }
+  .Responsive-About-Img {
+    display: none;
+  }
+  .Responsive-About-ButtonMain {
+    width: 100%;
+    display: block;
+  }
+  .Responsive-About-Button {
+    width: 100%;
+    justify-content: center;
+  }
+
+  /* Work Page */
+  .Responsive-Work {
+    width: 90%;
+  }
+  .Responsive-Work-Title {
+    font-size: 48px;
+    max-width: 90%;
+  }
+  .Responsive-Work-SubTitle1 {
+    font-size: 16px;
+    max-width: 90%;
+    line-height: 20px;
+    margin-top: 3px;
+    font-weight: 400;
+  }
+  .Responsive-Work-SubTitle {
+    font-size: 20px;
+    max-width: 55%;
+    display: block;
+    flex: none;
+    line-height: 30px;
+    margin-top: 3px;
+  }
+  .Responsive-Work-Para {
+    font-size: 15px;
+    max-width: 55%;
+    margin-top: 5px;
+  }
+  .Responsive-Work-Containers {
+    width: 90%;
+  }
+  .Responsive-Work-Container {
+    padding: 40px 20px;
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .Responsive-Work-Img {
+    display: none;
+  }
+  .Button {
+    margin-top: 30px;
+    font-size: 18px;
+    display: flex;
+    width: 130px;
+  }
+  .Button-Gemini {
+    margin-top: 60px;
+  }
+
+  .Responsive-Work-YPGH {
+    max-height: 400px;
+    min-height: 400px;
+  }
+  .Responsive-Work-YPGH-Img {
+    width: 53px;
+    margin: auto;
+    margin-top: -30px;
+  }
+  .Responsive-Work-YPGH-Title {
+    font-size: 20px;
+    text-align: center;
+    width: 90%;
+  }
+  .Responsive-Work-YPGH-SubTitle {
+    font-size: 15px;
+    text-align: center;
+    width: 90%;
+  }
+
+  /* TechStack Page */
+  .Responsive-TS {
+    width: 90%;
+  }
+  .Responsive-TS-Title {
+    font-size: 48px;
+    max-width: 90%;
+  }
+  .Responsive-TS-Title2 {
+    font-size: 32px;
+  }
+  .Responsive-TS-SubTitle {
+    font-size: 16px;
+    max-width: 90%;
+    line-height: 20px;
+    margin-top: 3px;
+    font-weight: 400;
+  }
+  .Responsive-TS-Grid {
+    grid-template-columns: auto;
+  }
+  .Responsive-TS-Container {
+    height: 86px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+  }
+  .Responsive-TS-Container-Img {
+    display: none;
+  }
+  .Responsive-TS-Container div {
+    padding: 0;
+    margin: 0;
+  }
+  .Responsive-TS-Container h1 {
+    font-size: 16px;
+  }
+  .Responsive-TS-Container button {
+    font-size: 11px;
+    padding: 5px 10px;
+  }
+  .Responsive-TS-Heading {
+    display: block;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+  }
+  .Responsive-TS-Heading img {
+    min-width: 60px;
+    max-width: 60px;
+    min-height: 60px;
+    max-height: 60px;
+    padding: 0;
+    margin: 0;
+  }
+  .Responsive-TS-Heading2 {
+    display: none;
+  }
+
+  /* Contact Page */
+  .Responsive-GT {
+    width: 90%;
+  }
+  .Responsive-GT-Title {
+    font-size: 48px;
+  }
+  .Responsive-GT-SubTitle {
+    font-size: 16px;
+    width: 90%;
+  }
+  .Responsive-GT-Form {
+    width: 90%;
+  }
+  .Responsive-GT-Form-Inputs {
+    padding: 20px;
+  }
+  .Responsive-GT-Form-Inputs input,
+  .textarea {
+    font-weight: 300;
+  }
+  .textarea {
+    margin-bottom: 50px;
+  }
+  .Responsive-GT-Button {
+    margin-top: -20px;
+    min-width: 100%;
+    max-width: 100%;
+  }
+  .Responsive-GT-Send-Button {
+    width: 100%;
+    justify-content: center;
+  }
+  .Responsive-GT-Links {
+    margin-top: 120px;
+    margin-bottom: -50px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .Tab-View {
+    display: block;
+  }
+  .Normal-View {
+    display: none;
+  }
 }

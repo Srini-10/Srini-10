@@ -6,19 +6,20 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <div className="h-[0.1px] w-full z-50 relative bg-neutral-600"></div>
-      <div className="overflow-hidden z-50 h-[290px] snap-end">
-        <div className="flex justify-between z-50 w-[68%] mt-12 mx-auto">
-          <div className="z-50">
+      <div className="Responsive-Footer h-[0.1px] w-full z-50 relative bg-neutral-600"></div>
+      <div className="Responsive-Footer-Container overflow-hidden z-[999999999] h-[290px] snap-end">
+        <div className="Responsive-Footer-Flex flex justify-between z-50 w-[68%] mt-12 mx-auto">
+          <div className="Responsive-Footer-Head z-50">
             <img src={Logo} alt="" className="rounded-lg w-[70px] h-[70px]" />
             <p className="text-[14px] z-[999] text-neutral-400 mt-1">
               Thanks for stopping by ッ
             </p>
-            <p className="text-[14px] text-neutral-400 mt-[90px]">
+            <div className="Responsive-Footer-UnderLine hidden"></div>
+            <p className="Responsive-Footer-CopyRight text-[14px] text-neutral-400 mt-[90px]">
               © 2024 Srinivasan. All Rights Reserved.
             </p>
           </div>
-          <div className="Footer_Links z-50 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
+          <div className="Responsive-Footer-Links Footer_Links z-50 text-neutral-400 text-[16px] leading-8 flex gap-[90px]">
             <ul className="Footer_Links">
               <h1 className="text-white text-[18px] mb-2 font-bold">Links</h1>
               <Link to="/About">

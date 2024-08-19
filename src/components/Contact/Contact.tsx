@@ -7,6 +7,7 @@ import LinkedIn from "../../assets/Contact/LinkedIn.svg";
 import Twitter from "../../assets/Contact/Twitter.svg";
 import { Link } from "react-router-dom";
 import emailjs from "emailjs-com";
+import Logo from "../../assets/Face2.png";
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -83,16 +84,17 @@ function Contact() {
   return (
     <>
       <div className="mb-[80px] relative scroll-smooth focus:scroll-auto">
-        <div className="mx-auto w-[68%] mt-[15vh]">
-          <p className="inter-font-style-1 text-white items-center flex gap-[15px] text-[80px]">
+        <img className="Responsive-Image-Logo hidden" src={Logo} alt="" />
+        <div className="Responsive-GT mx-auto w-[68%] mt-[15vh]">
+          <p className="Responsive-GT-Title inter-font-style-1 text-white items-center flex gap-[15px] text-[80px]">
             Get in touch
           </p>
-          <p className="text-neutral-600 w-[739px] font-medium text-[21px] leading-9 -mt-[10px]">
+          <p className="Responsive-GT-SubTitle text-neutral-600 w-[739px] font-medium text-[21px] leading-9 -mt-[10px]">
             Let’s build something awesome.
           </p>
         </div>
         <div className="h-[0.5px] w-full mt-14 bg-neutral-600"></div>
-        <div className="mx-auto pt-[60px] w-[68%]">
+        <div className="Responsive-GT-Form mx-auto pt-[60px] w-[68%]">
           <div className="w-full bg-neutral-900 rounded-2xl h-[650px]">
             <div className="flex items-center justify-between">
               <img src={Buttons} alt="" className="p-4" />
@@ -104,7 +106,10 @@ function Contact() {
               />
             </div>
             <div className="w-full h-[0.5px] -mt-1 bg-neutral-800"></div>
-            <form onSubmit={handleSubmit} className="px-9 py-4">
+            <form
+              onSubmit={handleSubmit}
+              className="Responsive-GT-Form-Inputs px-9 py-4"
+            >
               <div className="my-1">
                 <label className="text-white font-medium text-[15px]">
                   Email:
@@ -160,7 +165,7 @@ function Contact() {
                   required
                 />
               </div>
-              <div className="flex gap-4 mt-5 justify-end mr-5 items-center">
+              <div className="Responsive-GT-Button flex gap-4 mt-5 justify-end mr-5 items-center">
                 {success && (
                   <p className={`text-green-500 ${fadeOut ? "fade-out" : ""}`}>
                     Message sent successfully!
@@ -173,7 +178,7 @@ function Contact() {
                 )}
                 <button
                   type="submit"
-                  className="shadow-inner flex gap-2.5 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7"
+                  className="Responsive-GT-Send-Button shadow-inner flex gap-2.5 items-center text-[16px] bg-neutral-900 shadow-neutral-700 rounded-lg font-medium text-white py-4 px-7"
                   disabled={sending}
                 >
                   {sending ? (
@@ -188,7 +193,7 @@ function Contact() {
               </div>
             </form>
           </div>
-          <div className="flex w-[200px] mt-10 mb-[-20px] items-center opacity-75 justify-between mx-auto">
+          <div className="Responsive-GT-Links flex w-[200px] mt-10 mb-[-20px] items-center opacity-75 justify-between mx-auto">
             <Link
               target="_blank"
               to="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJqVNNXjRVQcSgJwJZbBWwchqwHsxQGjgLGPbtxrRcNXZjXgXqJsHLHdcBvdSlplzJGlWKg"
