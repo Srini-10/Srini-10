@@ -343,6 +343,7 @@ img {
     width: 100%;
     z-index: -9999;
     margin: auto;
+    top: 0;
     min-height: 500px;
     overflow: hidden;
     margin-top: -220px;
