@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import Sun from "../assets/Navbar/Sun.svg";
 import Github from "../assets/Navbar/Github.svg";
 import LinkedIn from "../assets/Navbar/LinkedIn.svg";
