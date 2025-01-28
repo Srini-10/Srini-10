@@ -2,8 +2,8 @@
   <p style="font-size: 18px;">Hi There 👋</p>
   <h1 style="font-size: 36px; color: #007acc; margin-bottom: 10px;">I'm Srinivasan</h1>
   <img 
-    src="./public/Gif2.png" 
-    alt="Srinivasan Profile" 
+    src="https://res.cloudinary.com/dwqiivnhx/image/upload/v1738070688/zbmhhtol4jls5s0mbi8x.gif"
+    alt="Srinivasan Profile Animation" 
     style="width: 300px; border-radius: 20px; float: left; margin-right: 20px;" 
   />
 
