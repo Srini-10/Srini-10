@@ -12,8 +12,8 @@
   </blockquote>
 
   <p style="text-align: left; color: #333;">
-    🚀 A versatile <b style="opacity: 0.5;">MERN Stack Developer</b>, <b style="opacity: 0.5;">Flutter Developer</b>, and <b style="opacity: 0.5;">Technical Officer</b>, I am dedicated to leveraging the power of <b style="opacity: 0.5;">JavaScript</b> and <b style="opacity: 0.5;">TypeScript</b> to build innovative, scalable web and mobile applications. 
-    Proficient in <b style="opacity: 0.5;">React.js</b> and <b style="opacity: 0.5;">Next.js</b> for dynamic front-end development, <b style="opacity: 0.5;">Node.js</b> and <b style="opacity: 0.5;">Express.js</b> for robust back-end solutions, and <b style="opacity: 0.5;">MongoDB</b> for efficient data management. Skilled in <b style="opacity: 0.5;">Flutter</b> for crafting seamless cross-platform mobile applications and <b style="opacity: 0.5;">Docker</b> for streamlined deployment and scalability.
+    🚀 A versatile <b>MERN Stack Developer</b>, <b>Flutter Developer</b>, and <b>Technical Officer</b>, I am dedicated to leveraging the power of <b>JavaScript</b> and <b>TypeScript</b> to build innovative, scalable web and mobile applications. 
+    Proficient in <b>React.js</b> and <b>Next.js</b> for dynamic front-end development, <b>Node.js</b> and <b>Express.js</b> for robust back-end solutions, and <b>MongoDB</b> for efficient data management. Skilled in <b>Flutter</b> for crafting seamless cross-platform mobile applications and <b>Docker</b> for streamlined deployment and scalability.
   </p>
 
   <p style="text-align: left; color: #333;">
@@ -21,36 +21,6 @@
   </p>
 
   <p style="text-align: left; color: #333;">
-    💼 Currently serving as a <b style="opacity: 0.5;">MERN Stack Developer</b> and <b style="opacity: 0.5;">Technical Officer</b> at <b style="opacity: 0.5;">TuneUp Technologies</b>, where I play a dual role in driving the development of scalable web applications and overseeing strategic technical implementations. I am responsible for <b style="opacity: 0.5;">architecting solutions</b>, <b style="opacity: 0.5;">mentoring teams</b>, and contributing to the company’s technological advancements to deliver impactful products and services.
+    💼 Currently serving as a <b>MERN Stack Developer</b> and <b>Technical Officer</b> at <b>TuneUp Technologies</b>, where I play a dual role in driving the development of scalable web applications and overseeing strategic technical implementations. I am responsible for <b>architecting solutions</b>, <b>mentoring teams</b>, and contributing to the company’s technological advancements to deliver impactful products and services.
   </p>
-
-  <p style="font-size: 18px; margin-top: 20px;">
-    <b style="color: #007acc; opacity: 0.5;">✉️ Contact:</b> <a href="mailto:srinivasanp1018@gmail.com" style="color: #007acc; text-decoration: none;">srinivasanp1018@gmail.com</a>
-  </p>
-
-<br/>
-
-  <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-top: 30px;">
-    <img 
-      id="top-langs"
-      src="https://github-readme-stats.vercel.app/api/top-langs?username=Srini-10&show_icons=true&locale=en&layout=compact&theme=dark" 
-      alt="Top Languages" 
-      style="border: 1px solid #ddd; border-radius: 10px; width: 350px;"
-    />
-    <img 
-      id="github-stats-img"
-      src="https://github-readme-stats.vercel.app/api?username=Srini-10&show_icons=true&locale=en&theme=dark" 
-      alt="GitHub Stats" 
-      style="border: 1px solid #ddd; border-radius: 10px; width: 350px;"
-    />
-  </div>
-
-  <div style="margin-top: 30px;">
-    <img 
-      id="trophies"
-      src="https://github-profile-trophy.vercel.app/?username=Srini-10&theme=dark" 
-      alt="GitHub Trophies" 
-      style="width: 100%; max-width: 600px; height: auto;"
-    />
-  </div>
 </div>
